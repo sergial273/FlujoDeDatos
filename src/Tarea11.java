@@ -7,7 +7,8 @@ public class Tarea11 {
 		// TODO Auto-generated method stub
 		
 		String dia = JOptionPane.showInputDialog("Indica el dia de la semana:");
-		switch (dia) {
+		String dial = dia.toLowerCase();
+		switch (dial) {
 		     case "lunes":
 		    	 JOptionPane.showMessageDialog(null,"Es dia laboral");
 		         break;

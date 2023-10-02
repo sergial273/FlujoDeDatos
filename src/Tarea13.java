@@ -34,8 +34,9 @@ public class Tarea13 {
 	         break;
 	     default:
 	    	 JOptionPane.showMessageDialog(null,"Error! "+ op + ": No es un signo aritmético válido");
-	         break;
+	    	 System.exit(0);
 	}
+		
 		JOptionPane.showMessageDialog(null,"El resultado es: "+ res);
 		
 
